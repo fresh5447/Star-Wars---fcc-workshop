@@ -1,0 +1,19 @@
+{
+  "name": "fcc-flex-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "chalk": "^1.1.3",
+    "colors": "^1.1.2",
+    "express": "^4.15.2",
+    "node-fetch": "^1.6.3"
+  }
+}
