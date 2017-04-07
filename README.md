@@ -47,3 +47,10 @@ The project comes with a node server pre-configured with an API endpoint, that g
 #### Curious about React and ES6?
 
 There is a functional solution under the `react-client` branch, go check it out!
+
+- `git checkout react-client`
+- `<sudo> npm install -g foreman`
+- `cd client/ && npm install`
+- `cd .. && npm run dev`
+
+*we are using foreman to start our server and client with one command*
