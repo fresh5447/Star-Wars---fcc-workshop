@@ -2,7 +2,7 @@ import React from 'react';
 import CharacterCard from './CharacterCard';
 
 const CharactersList = (props) =>
-  <div>
+  <div className="char-flex">
     {
       props.chars.map(i =>
         <CharacterCard {...i}/>)
