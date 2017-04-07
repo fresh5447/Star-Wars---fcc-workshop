@@ -1,31 +1,23 @@
 ## Introduction to Flexbox & Vue.js
 
 ----
-----
+
 #### Starting Point
-1) Clone Repository
-- `git clone <URL>`
+- Clone Repository `git clone <URL>`
 
-2) Install dependencies
-- `npm install`
+- Install dependencies `cd <dir> && npm install`
 
-3) Start node server
-- `node server.js`
+- Start node server `node server.js`
 
 
 #### What you will be building
-
+*I tried making it star wars'esk but just made it hideous 😅*
 ![alt text](https://www.dropbox.com/s/eg4wpktwsfe9u22/Screenshot%202017-04-07%2013.47.31.png?raw=1)
 
-
-
-
-----
 ----
 
 ## Resources
 
-----
 ----
 
 #### Flexbox (literally all you need)
@@ -35,7 +27,6 @@
 - Wes Flexbox Course
 
 ----
-----
 
 #### Vue.js
 - Vue.js Docs
@@ -43,4 +34,16 @@
 - Scotch.io Tut
 
 ----
+
+## About Project
+
+The project comes with a node server pre-configured with an API endpoint, that gives back some `JSON` data. It uses an open API `http://swapi.co/api/people/1`.
+
+
 ----
+
+## Bonus
+
+#### Curious about React and ES6?
+
+There is a functional solution under the `react-client` branch, go check it out!
