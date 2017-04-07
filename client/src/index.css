@@ -2,4 +2,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #34495e;
+}
+
+.my-jumbo {
+  background-color: #8e44ad;
+  color: #ecf0f1;
+}
+
+.my-spinner {
+  font-size: 100px;
+  color: #ecf0f1;
+}
+
+.spin-flex {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
