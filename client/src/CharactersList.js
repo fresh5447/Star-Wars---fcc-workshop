@@ -1,8 +1,13 @@
 import React from 'react';
+import CharacterCard from './CharacterCard'
 
 const CharactersList = (props) =>
   <div>
-    <h1> found chars list </h1>
+    {
+      props.chars.map((i) => {
+        return <CharacterCard {...i}/>
+      })
+    }
   </div>
 
 

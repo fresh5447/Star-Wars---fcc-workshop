@@ -19,11 +19,11 @@ class CharactersContainer extends Component {
   render(){
      return (
        <div>
-        { this.state.characters ? <CharactersList /> : <Spinner />  }
+        { this.state.characters ? <CharactersList chars={this.state.characters}/> : <Spinner />  }
        </div>
      )
   }
-  
+
 }
 
 
