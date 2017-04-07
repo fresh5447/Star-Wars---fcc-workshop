@@ -2,9 +2,7 @@ const fetch = require('node-fetch');
 
 const getCharacter = (i) =>
   fetch('http://swapi.co/api/people/' + i)
-    .then(blob => blob.json())
-    .then(data => data)
-    .catch(e => e);
+    .then(blob => blob.json());
 
 
 module.exports = (app) => {
