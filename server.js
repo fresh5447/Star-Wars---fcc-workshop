@@ -4,10 +4,17 @@ const express  = require('express');
 const app      = express();
 const chalk    = require('chalk');
 const colors   = require('colors');
-const routes = require('./star_wars_fetch');
-// console.log(chalk.blue.bgRed.bold('Hello world!'));
+const routes   = require('./star_wars_fetch');
+const path     = require('path');
+
+app.use(express.static('public'))
 
 routes(app);
+
+app.get('/', function(req, res) {
+  res.sendFile('/index.html');
+});
+
 
 app.set('port', 3001);
 
