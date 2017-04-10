@@ -56,3 +56,12 @@ There is a functional solution under the `react-client` branch, go check it out!
 - `cd .. && npm run dev`
 
 *we are using foreman to start our server and client with one command*
+
+
+Intro To Flexbox
+
+1) Flex container - display flex
+2) Flex direction
+3) Flex wrap
+4) Justify-content
+5) Align Content

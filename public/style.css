@@ -1,3 +1,56 @@
 body {
   background-color: #3498db;
 }
+
+/*align content ~ justify content*/
+/*align items > single row of shtuff*/
+
+.flex-container {
+  display: flex;
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
+  border: solid 3px magenta;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.flex-item {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  width: calc(33.333% - 20px);
+}
+
+.mini-flex-item {
+  color: white;
+  background-color: #3498db;
+  padding: 10px;
+}
+
+.one {
+  height: 400px;
+  flex: 2 1 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.mfi-five {
+  align-self: baseline;
+}
+
+.four {
+  /*flex: 2 1 auto;*/
+  /*flex: 0 1 auto;*/
+  align-self: flex-end;
+}
+
+/*.five {
+  flex-shrink: 4;
+}*/
