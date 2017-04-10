@@ -56,3 +56,17 @@ There is a functional solution under the `react-client` branch, go check it out!
 - `cd .. && npm run dev`
 
 *we are using foreman to start our server and client with one command*
+
+----
+----
+
+Intro to view
+
+1) Show basic message app. Update in browser
+2) Show `if` directive
+3) Bind a function to toggle if
+4) Add todos and v-for example
+5) Add new todo from input
+6) Composing with components
+7) $watch, proxy, and instance methods
+8) Lifecycle - data observation -> Compile temps -> mount to DOM -> updated DOM when data changes (lifecycle hooks)

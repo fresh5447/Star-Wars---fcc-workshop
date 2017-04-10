@@ -7,7 +7,7 @@ const colors   = require('colors');
 const routes   = require('./star_wars_fetch');
 const path     = require('path');
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 routes(app);
 

@@ -14,16 +14,38 @@
   <body class="container">
 
 
-    <div>
-      <h3> Hello, world! </h3>
-    </div>
+    <div id="app">
+      <div v-bind:class="{ active: isActive, 'text-danger': hasError }"></div>
 
+      <div v-bind:class="classObject"></div>
+
+      <h3> Original MSG {{ message }} </h3>
+      <h3> Computed MSG: {{ reversedMessage }} </h3>
+      <h5> {{ now }} </h5>
+      <span v-bind:title="hoverOver">
+        Hover your mouse over me for a few seconds
+        to see my dynamically bound title!
+      </span>
+      <button type="button" @click="toggleSeen"> Toggle Seen </button>
+      <p v-if="seen"> Show me the  money! </p>
+
+      <ol>
+        <todo-item v-for="item in todos" v-bind:todo="item"></todo-item>
+      </ol>
+
+      <h4>Add Todo</h4>
+      {{ 10 + 10}}
+      <form v-on:submit.prevent="addTodo">
+        <input v-model="newTodo" type="text" placeholder="todo text">
+        <button type="submit">create</button>
+      </form>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/vue"></script
+    <script src="https://unpkg.com/vue@2.2.6"></script>
     <script src="app.js"></script>
   </body>
 </html>
