@@ -11,8 +11,10 @@
 
 
 #### What you will be building
+
 *I tried making it star wars'esk but just made it hideous 😅*
-![alt text](https://www.dropbox.com/s/eg4wpktwsfe9u22/Screenshot%202017-04-07%2013.47.31.png?raw=1)
+
+  ![alt text](https://www.dropbox.com/s/eg4wpktwsfe9u22/Screenshot%202017-04-07%2013.47.31.png?raw=1)
 
 ----
 
